@@ -4,8 +4,7 @@ jdk:
 
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU_TOKEN
+  api_key: $HEROKU_TOKEN
   app: "sakthi-book-store"
   on:
     branch:
