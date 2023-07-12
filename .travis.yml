@@ -7,3 +7,7 @@ deploy:
   api_key:
     secure: $HEROKU_TOKEN
   app: "sakthi-book-store"
+  on:
+    branch:
+      - main
+
