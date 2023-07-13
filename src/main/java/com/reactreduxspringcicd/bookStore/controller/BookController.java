@@ -19,7 +19,7 @@ public class BookController {
     public ResponseEntity<List<BookDto>> getBooks(){
 
         BookDto book = BookDto.builder()
-                .title("My First book title")
+                .title("My First book title test")
                 .build();
 
         List<BookDto> books = new ArrayList<>();
